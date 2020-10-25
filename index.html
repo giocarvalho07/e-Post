@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-post</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <header>
+
+        <div class="logo">
+            <h2>
+                Escolha seu tema
+            </h2>
+        </div>
+
+        <div class="buttons">
+            <button id="btn" onclick="pets()" > Pets </button>
+
+            <button id="btn" onclick="natureza()" > natureza </button>
+    
+            <button id="btn" onclick="tecnologia()" > tech </button>
+        </div>
+
+
+    </header>
+    
+
+    <main>
+
+        <div id="imgPost" > </div>
+
+        <div id="receberComents" > </div>
+
+    </main>
+
+
+
+
+
+    <div id="form" >
+        <label id="label" for="texto"> Digite seu post </label>
+        <input type="text" id="texto" name="texto">
+        <button id="btn" onclick="postar()" > Postar </button>
+
+    </div>
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>

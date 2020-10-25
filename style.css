@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100vw;
+    height: 120px;
+    background-color: teal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo {
+    font-size: larger;
+    font-weight: 600;
+    color: #f5f6fa;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80vw;
+    margin-top: 10px;
+}
+
+#btn {
+    width: 100px;
+    height: 20px;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 2px 2px 12px 2px #323250;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(69, 168, 69);
+    color: #f5f6fa;
+    font-size: medium;
+    font-weight: 500;
+}
+
+
+
+#btn:hover {
+    color: #2d2d2d;
+    background-color: rgb(71, 209, 71);
+    font-size: medium;
+    font-weight: 600;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 380px;
+    background-color: rgba(243, 191, 182, 0.479);
+}
+
+
+#imgPost {
+    width: 30vw;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#receberComents {
+    width: 30vw;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: ivory;   
+    border-radius: 12px;
+    border: none;
+    box-shadow: 2px 2px 12px 2px #323250;
+}
+
+
+
+.imgDog {
+    background-image: url("https://picsum.photos/id/237/200/300");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.imgMar {
+    background-image: url("https://picsum.photos/seed/picsum/200/300");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imgTech {
+    background-image: url("https://picsum.photos/id/1/200/300");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#form {
+    width: 100vw;
+    height: 200px;
+    background-color: rgba(243, 191, 182, 0.479);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#label {
+    font-size: larger;
+    font-weight: 600;
+    color: teal;
+}
+
+#texto {
+    border-radius: 8px;
+    border: none;
+    height: 25px;
+    margin: 20px;
+    width: 200px;
+}
+
+
+@media screen and (max-width: 380px) {
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        height: 80px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100vw;
+        height: 800px;
+        background-color: rgba(243, 191, 182, 0.479);
+    }
+
+    #imgPost {
+        width: 60vw;
+    }
+    
+    #receberComents {
+        width: 60vw;
+    }
+
+    #form {
+        flex-direction: column;
+        display: flex;
+    }
+}
+
